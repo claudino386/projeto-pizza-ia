@@ -29,7 +29,7 @@ st.write("Insira o diâmetro desejado para que a Inteligência Artificial calcul
 tamanho_usuario = st.number_input(
     label="Diâmetro da pizza (em centímetros):", 
     min_value=10.0, 
-    max_value=100.0, 
+    max_value=1000.0, 
     value=32.0, 
     step=1.0
 )
